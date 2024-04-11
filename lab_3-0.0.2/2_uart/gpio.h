@@ -2,9 +2,10 @@
 #define GPIO_H
 #include <stdint.h>
 
-#define GPIO ((NRF_GPIO_REG*)0x50000000)
+#define GPIO ((NRF_GPIO_REG *)0x50000000)
 
-typedef struct {
+typedef struct
+{
 	volatile uint32_t RESERVED0[321];
 	volatile uint32_t OUT;
 	volatile uint32_t OUTSET;
