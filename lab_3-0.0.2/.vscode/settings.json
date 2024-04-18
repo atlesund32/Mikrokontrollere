@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "stdint.h": "c"
+        "stdint.h": "c",
+        "uart.h": "c",
+        "gpiote.h": "c",
+        "ppi.h": "c"
     }
 }

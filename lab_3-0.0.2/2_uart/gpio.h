@@ -19,3 +19,6 @@ typedef struct
 } NRF_GPIO_REG;
 
 #endif
+
+void button_init();
+void led_init();
